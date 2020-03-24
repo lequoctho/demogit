@@ -14,6 +14,7 @@
 	+ staging area
 	+ git repository
 **
+
 9. git checkout *tên file* (undo lại file đã modify ) tương tự có git restore *tên file*
 10. git reset *tên file* (reset 1 file không add nữa)
 
@@ -22,3 +23,15 @@
 13. git merge (merge vào nhánh nào đó)
 14. git branch (check đang ở branch nào)
 15. git branch -D <branch> (delete a branch)
+
+16. git reset --soft *mã* (reset trở về commit theo mã id, và các file của các commit bị reset sẽ trở về trạng thái đã add)
+17. git reset --mixed *mã* (reset trở về commit theo mã id, và các file của các commit bị reset sẽ trở về trạng thái chưa add)
+18. git reset --hard *mã* (reset trở về commit theo mã id, và các file của các commit bị xóa đi hết)
+
+19. git revert *mã* (revert lại commit có mã id và nên hạn chế revert lại commit có version quá cũ)
+
+** thuật ngữ ** 
+.gitignore : chứa những folder, file mà không muốn commit lên ví dụ như node module
+
+20. git remote add origin *link github* (pull repo về)
+21. git push (để push code lên repo)
