@@ -6,3 +6,12 @@
 5. git log (xem lịch sử commit)
 6. git show *mã tem* (xem chi tiết 1 lịch sử commit)
 7. git diff (để xem sự thay đổi của file đã modify)
+
+8. gitk (mở GUI)
+
+**thuật ngữ
+	+ working directory
+	+ staging area
+	+ git repository
+**
+9.
