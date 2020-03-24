@@ -15,4 +15,10 @@
 	+ git repository
 **
 9. git checkout *tên file* (undo lại file đã modify ) tương tự có git restore *tên file*
-10. git reset HEAD *tên file* (reset 1 file không add nữa)
+10. git reset *tên file* (reset 1 file không add nữa)
+
+11. git checkout -b <branch> (tạo ra nhánh và sử dụng trên nhánh này)
+12. git checkout <branch> (chuyển sang nhánh này sử dụng)
+13. git merge ()
+14. git branch (check đang ở branch nào)
+15. git branch -D <branch> (delete a branch)
