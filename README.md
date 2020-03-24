@@ -19,6 +19,6 @@
 
 11. git checkout -b <branch> (tạo ra nhánh và sử dụng trên nhánh này)
 12. git checkout <branch> (chuyển sang nhánh này sử dụng)
-13. git merge ()
+13. git merge (merge vào nhánh nào đó)
 14. git branch (check đang ở branch nào)
 15. git branch -D <branch> (delete a branch)
