@@ -14,4 +14,5 @@
 	+ staging area
 	+ git repository
 **
-9.
+9. git checkout *tên file* (undo lại file đã modify ) tương tự có git restore *tên file*
+10. git reset HEAD *tên file* (reset 1 file không add nữa)
